@@ -18,16 +18,20 @@
         "yellow3": "hsl(60, 12%, 79%)",
         "yellow4": "hsl(55, 11%, 22%)",
         "yellow5": "hsl(50, 11%, 41%)",
-        "pink": "#fb3fd6",
+        "pink": "#F38BDE",
         "salmon": "hsl(338, 95%, 56%)",
         "off_white": "hsl(60, 36%, 96%)",
         "lime_green": "hsl(80, 76%, 53%)",
+
+
+        "rich_blue":"#3455E9",
         "selection": "#E18202",
         "caret": "#E18202",
         "background_black": "#000000",
         "line_highlight": "#ffffff10",
         "default_text": "#c5c8c6",
         "comment_grey": "hsl(50, 11%, 41%)",
+        "string_yellow":"#F8D26C",
         "brown": "#BE8932",
         "bright_orange": "#FBB300",
         "ruby_red": "#fb3fd6"
@@ -63,11 +67,11 @@
     }, "rules": [{
             "name": "Comment",
             "scope": "comment",
-            "foreground": "var(purple)"
+            "foreground": "var(comment_grey)"
         }, {
             "name": "String",
             "scope": "string",
-            "foreground": "var(yellow)"
+            "foreground": "var(string_yellow)"
         }, {
             "name": "Number",
             "scope": "constant.numeric",
@@ -384,10 +388,11 @@
             "name": "BASH ",
             "scope": "source.shell.bash variable.other.readwrite.assignment.shell",
             "foreground": "var(pink)"
-        }, {
-            "name": "BASH ",
-            "scope": "source.shell.bash comment.line.number-sign.shell",
-            "foreground": "var(grey)"
         }
+        // , {
+        //     "name": "BASH ",
+        //     "scope": "source.shell.bash comment.line.number-sign.shell",
+        //     "foreground": "var(grey)"
+        // }
 ]
 }
