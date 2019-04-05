@@ -1,5 +1,5 @@
 {
-    "name": "A2",
+    "name": "A3",
     "author": "dwkns",
     "variables": {
         "black": "hsl(0, 0%, 0%)",
@@ -32,7 +32,7 @@
         "comment_grey": "hsl(50, 11%, 41%)",
         "brown": "#BE8932",
         "bright_orange": "#FBB300",
-        "ruby_red": ""
+        "ruby_red": "#fb3fd6"
     },
     "globals": {
         "foreground": "var(default_text)",

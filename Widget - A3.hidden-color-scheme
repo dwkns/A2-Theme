@@ -18,7 +18,7 @@
     "globals":
     {
         "foreground": "var(black2)",
-        "background": "var(white)",
+        "background": "var(black2)",
         "caret": "var(black)",
         "invisibles": "var(grey2)",
         "line_highlight": "color(var(black) alpha(0.071))",
