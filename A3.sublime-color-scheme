@@ -2,16 +2,28 @@
     "name": "A3",
     "author": "dwkns",
     "variables": {
+        "--------used--------": "--------",
+        "default_text": "#c5c8c6",
+        "comment_grey": "#69675D",
+        "string_yellow": "#F8D26C",
+        "lime_green": "hsl(80, 76%, 53%)",
+        "bright_orange": "#FBB300",
+        "purple": "hsl(261, 100%, 75%)",
+        "variable_pink": "#F38BDE",
+        "orange": "hsl(32, 98%, 56%)",
+        "red": "#FF1C18",
+        "brown": "#BE8932",
+        "rich_blue": "#3455E9",
+        "selection": "#E18202",
+        "caret": "#E18202",
+        "background_black": "#000000",
+        "line_highlight": "#ffffff10",
+        "--------not used--------": "----or not sure----",
         "black": "hsl(0, 0%, 0%)",
         "black2": "hsl(60, 17%, 11%)",
         "black3": "hsl(70, 8%, 15%)",
         "blue": "hsl(190, 81%, 67%)",
         "grey": "hsl(55, 8%, 26%)",
-        "orange": "hsl(32, 98%, 56%)",
-        "orange2": "hsl(30, 83%, 34%)",
-        "orange3": "hsl(47, 100%, 79%)",
-        "purple": "hsl(261, 100%, 75%)",
-        "red": "#BE1B19",
         "white": "hsl(0, 0%, 97%)",
         "white2": "hsl(60, 36%, 96%)",
         "white3": "hsl(60, 30%, 96%)",
@@ -20,21 +32,8 @@
         "yellow3": "hsl(60, 12%, 79%)",
         "yellow4": "hsl(55, 11%, 22%)",
         "yellow5": "hsl(50, 11%, 41%)",
-        "variable_pink": "#F38BDE",
         "salmon": "hsl(338, 95%, 56%)",
         "off_white": "hsl(60, 36%, 96%)",
-        "lime_green": "hsl(80, 76%, 53%)",
-        "rich_blue": "#3455E9",
-        "selection": "#E18202",
-        "caret": "#E18202",
-        "background_black": "#000000",
-        "line_highlight": "#ffffff10",
-        "default_text": "#c5c8c6",
-        "comment_grey": "hsl(50, 11%, 41%)",
-        "string_yellow": "#F8D26C",
-        "brown": "#BE8932",
-        "bright_orange": "#FBB300",
-        "ruby_red": "#fb3fd6"
     },
     "globals": {
         "foreground": "var(default_text)",
@@ -53,9 +52,9 @@
         "selection_corner_style": "",
         "selection_corner_radius": "",
         "misspelling": "var(red)",
-        "active_guide": "color(var(orange2) alpha(0.69))",
+        "active_guide": "color(var(orange) alpha(0.69))",
         "find_highlight_foreground": "var(black)",
-        "find_highlight": "var(orange3)",
+        "find_highlight": "var(orange)",
         "brackets_options": "underline",
         "brackets_foreground": "color(var(white3) alpha(0.65))",
         "bracket_contents_options": "underline",
@@ -323,7 +322,11 @@
     }, {
         "name": "Ruby keyword",
         "scope": "source.ruby variable.other.readwrite.instance.ruby",
-        "foreground": "var(brown)",
+        "foreground": "var(brown)"
+    }, {
+        "name": "Ruby seperator",
+        "scope": "source.ruby punctuation.separator.ruby",
+        "foreground": "var(blue)"
     }, {
         "name": "Ruby interpolation start",
         "scope": "meta.interpolation punctuation.section.interpolation.end.ruby",
@@ -365,7 +368,11 @@
         "scope": "source.ruby meta.function.parameters.ruby variable.parameter.ruby",
         "foreground": "var(bright_orange)",
     }, {
-        "language": "----------------- RUBY -----------------"
+        "name": "Ruby array",
+        "scope": "source.ruby punctuation.section.array.ruby",
+        "foreground": "var(bright_orange)",
+    }, {
+        "language": "----------------- BASH -----------------"
     }, {
         "name": "BASH quotes start",
         "scope": "source.shell.bash punctuation.definition.string.begin.shell",
