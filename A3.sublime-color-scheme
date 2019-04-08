@@ -401,8 +401,16 @@
         "name": "Ruby array",
         "scope": "source.ruby punctuation.section.array.ruby",
         "foreground": "var(bright_orange)",
+    },{
+        "name": "Ruby !",
+        "scope": "source.ruby keyword.operator.logical.ruby",
+        "foreground": "var(blue)",
     }, {
         "language": "----------------- BASH -----------------"
+    }, {
+        "name": "BASH ",
+        "scope": "source.shell.bash keyword.operator.assignment.shell",
+        "foreground": "var(blue)",
     }, {
         "name": "BASH quotes start",
         "scope": "source.shell.bash punctuation.definition.string.begin.shell",
