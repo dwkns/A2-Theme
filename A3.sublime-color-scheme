@@ -326,6 +326,10 @@
    } , {
         "language": "----------------- RUBY -----------------"
     }, {
+        "name": "Ruby ==",
+        "scope": "source.ruby keyword.operator.comparison.ruby",
+        "foreground": "var(blue)"
+   } , {
         "name": "Ruby inherited-class",
         "scope": "source.ruby entity.other.inherited-class.ruby",
         "foreground": "var(bright_orange)"
