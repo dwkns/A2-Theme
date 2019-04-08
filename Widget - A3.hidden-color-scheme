@@ -13,18 +13,19 @@
         "grey": "hsl(202, 7%, 68%)",
         "grey2": "hsl(0, 0%, 75%)",
         "orange": "hsl(29, 91%, 54%)",
-        "white": "hsl(0, 0%, 100%)"
+        "white": "hsl(0, 0%, 100%)",
+        "default_text": "#c5c8c6"
     },
     "globals":
     {
-        "foreground": "var(black2)",
+        "foreground": "var(default_text)",
         "background": "var(black2)",
-        "caret": "var(black)",
+        "caret": "var(orange)",
         "invisibles": "var(grey2)",
-        "line_highlight": "color(var(black) alpha(0.071))",
-        "selection": "var(blue2)",
+        "line_highlight": "color(var(orange) alpha(0.1))",
+        "selection": "color(var(orange) alpha(0.4))",
         "selection_border": "var(blue4)",
-        "inactive_selection": "var(grey)"
+        "inactive_selection": "color(var(orange) alpha(0.2))"
     },
     "rules":
     [
