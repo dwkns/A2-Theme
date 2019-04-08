@@ -7,7 +7,7 @@
         "comment_grey": "#969696",
         "string_yellow": "#F8D26C",
         "lime_green": "hsl(80, 76%, 53%)",
-        "bright_orange": "#E18202",
+        "bright_orange": "#FFA703",
         "purple": "hsl(261, 100%, 75%)",
         "variable_pink": "#F38BDE",
         "orange": "hsl(32, 98%, 56%)",
@@ -52,7 +52,7 @@
         "selection_corner_style": "",
         "selection_corner_radius": "",
         "misspelling": "var(red)",
-        "active_guide": "color(var(orange) alpha(0.69))",
+        "active_guide": "color(var(comment_grey) alpha(0.69))",
         "find_highlight_foreground": "var(black)",
         "find_highlight": "var(orange)",
         "brackets_options": "underline",
@@ -320,9 +320,21 @@
     }, {
         "language": "----------------- ERB -----------------"
     }, {
-        "name": "Ruby inherited-class",
+        "name": "ERB <%= %>",
         "scope": "punctuation.section.embedded.ruby",
-        "foreground": "var(salmon)"
+        "foreground": "var(red)"
+   }, {
+        "name": "ERB class keyword",
+        "scope": "source.ruby.rails.embedded.html keyword.control.class.ruby",
+        "foreground": "var(default_text)"
+   },{
+        "name": "ERB class keyword",
+        "scope": "text.html.ruby text.html.basic source.ruby.rails.embedded.html constant.other.symbol.ruby",
+        "foreground": "var(default_text)"
+   }, {
+        "name": "ERB ':' after class keyword",
+        "scope": "source.ruby.rails.embedded.html keyword.operator.conditional.ruby",
+        "foreground": "var(default_text)"
    } , {
         "language": "----------------- RUBY -----------------"
     }, {
