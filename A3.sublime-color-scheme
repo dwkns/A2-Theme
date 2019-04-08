@@ -4,10 +4,10 @@
     "variables": {
         "--------used--------": "--------",
         "default_text": "#c5c8c6",
-        "comment_grey": "#69675D",
+        "comment_grey": "#969696",
         "string_yellow": "#F8D26C",
         "lime_green": "hsl(80, 76%, 53%)",
-        "bright_orange": "#FBB300",
+        "bright_orange": "#E18202",
         "purple": "hsl(261, 100%, 75%)",
         "variable_pink": "#F38BDE",
         "orange": "hsl(32, 98%, 56%)",
@@ -318,8 +318,22 @@
         "scope": "source.json meta.mapping.value string punctuation",
         "foreground": "var(blue)",
     }, {
+        "language": "----------------- ERB -----------------"
+    }, {
+        "name": "Ruby inherited-class",
+        "scope": "punctuation.section.embedded.ruby",
+        "foreground": "var(salmon)"
+   } , {
         "language": "----------------- RUBY -----------------"
     }, {
+        "name": "Ruby inherited-class",
+        "scope": "source.ruby entity.other.inherited-class.ruby",
+        "foreground": "var(bright_orange)"
+   } , {
+        "name": "Ruby operator",
+        "scope": "source.ruby keyword.operator.assignment.ruby",
+        "foreground": "var(blue)"
+   } , {
         "name": "Ruby keyword",
         "scope": "source.ruby variable.other.readwrite.instance.ruby",
         "foreground": "var(brown)"
