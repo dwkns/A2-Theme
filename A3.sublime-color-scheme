@@ -318,6 +318,24 @@
         "scope": "source.json meta.mapping.value string punctuation",
         "foreground": "var(blue)",
     }, {
+        "language": "----------------- JS -----------------"
+    }, {
+        "name": "JS `",
+        "scope": "punctuation.definition.string.begin.js",
+        "foreground": "var(blue)"
+   },{
+        "name": "JS `",
+        "scope": "punctuation.definition.string.end.js",
+        "foreground": "var(blue)"
+   },{
+        "name": "JS =",
+        "scope": "keyword.operator.assignment.js",
+        "foreground": "var(blue)"
+   },{
+        "name": "JS Varible function",
+        "scope": "variable.function.js",
+        "foreground": "var(lime_green)"
+   }, {
         "language": "----------------- ERB -----------------"
     }, {
         "name": "ERB <%= %>",
